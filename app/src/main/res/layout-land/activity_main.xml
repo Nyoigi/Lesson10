@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/ivCat"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/tvCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text"
+        android:layout_gravity="center"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+   <Button
+       android:id="@+id/btnAction"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:text="Тык"
+       android:textSize="42px"
+       android:layout_marginTop="5dp"/>
+
+</LinearLayout>
